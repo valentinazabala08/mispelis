@@ -1,0 +1,34 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y backups
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de Netlify o similares (si usas build)
+netlify.toml
+
+# Node.js (si algún día usas npm)
+node_modules/
+dist/
+.env
+
+# Mac/Linux/Windows
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de sistema de Git
+.git/
+
+# Archivos de subida por error
+*.zip
+*.rar
+*.tar.gz
