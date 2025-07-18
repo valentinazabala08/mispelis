@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to bottom right, #03aef3, #ffffff, #61008d);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+h1 {
+    font-size: 5em !important;
+    color: fuchsia !important;
+    text-shadow: 4px 4px black;
+    
+}
+
+
+.sin-espacio {
+    margin: 0 !important;
+}
+
+
+img {
+    /* margin: 0,80;
+    margin-right: 5em ; */
+    border: 5px solid #19191a;
+    border-radius: 10px;
+    
+}
+
+.actor-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius:50% !important;
+    margin: 0 auto;
+    display: block;
+    object-position: center 0%;
+}
+
+
+.card-inner{
+    background-color:#ffb350 !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.frase-card{
+    max-width: 600px;
+    background-color: #ffb350 !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.frases,.ficha,.actores{
+    color: fuchsia;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+footer {
+    background-color: white;
+    padding: 10pX;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+
+.contenedor-video {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media(max-width:667px) {
+
+    iframe {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}

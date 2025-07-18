@@ -1,0 +1,33 @@
+.container {
+    color: rgb(255, 86, 86) !important;
+}
+
+h1 {
+    font-size: 5em !important;
+    color: fuchsia !important;
+    text-shadow: 4px 4px black;
+}
+
+body {
+    background-color: #03aef3;
+    background-image: linear-gradient(#03aef3, #FFFFFF, #61008d) !important;
+    height: 100%;
+}
+
+.card-img-top {
+    height: 431px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: white;
+    padding: 10px; ;
+
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25), 0 1.5px 6px rgba(0,0,0,0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    border: 3px solid fuchsia;  
+}

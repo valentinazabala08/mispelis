@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(to bottom right, #03aef3, #ffffff, #61008d);
+    min-height: 100vh;
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 5em !important;
+    text-shadow: black 4px 4px;
+    color: fuchsia !important;
+
+
+}
+
+
+.sin-espacio {
+    margin: 0 !important;
+}
+
+
+img {
+    border: 8px solid #19191a !important;
+    border-radius: 10px;
+}
+
+
+.actor-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+.frase-card {
+    max-width: 600px;
+    background-color: #dde7e7 !important;
+    color: rgb(28, 31, 218) !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(187, 96, 248, 0.815);
+}
+
+ h2{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.video-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-top: 3px solid #e6dede;
+    border-bottom: 3px solid #f16a6a;
+    height: 316;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+footer {
+    background-color: white;
+    padding: 10px; ;
+
+}
+
+.contenedor-video {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media(max-width:667px) {
+
+    iframe {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}

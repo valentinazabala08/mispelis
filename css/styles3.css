@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to bottom right, #03aef3, #ffffff, #61008d);
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 5em !important;
+    color: fuchsia !important;
+    text-shadow: 4px 4px black;
+}
+
+
+.sin-espacio {
+    margin: 0 !important;
+}
+
+
+img {
+
+    border: 8px solid #19191a !important;
+    border-radius: 10px;
+}
+
+
+.actor-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin: 0 auto;
+    display: block;
+}
+
+.actores,.frases,.ficha{
+    color: fuchsia !important;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+.frase-card {
+    max-width: 600px;
+    background-color: rgba(243, 161, 199, 0.85) !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.frases {
+    color: fuchsia;
+    text-shadow: 3px 3px black;
+}
+
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+
+footer {
+    background-color: white;
+    padding: 10px;
+}
+.contenedor-video {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media(max-width:667px) {
+
+    iframe {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}
